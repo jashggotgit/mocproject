@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 780" width="1400" height="780">
+<defs>
+  <marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="3.5" orient="auto">
+    <path d="M 0 0 L 7 3.5 L 0 7 Z" fill="#000000"/>
+  </marker>
+</defs>
+<rect width="1400" height="780" fill="#FFFFFF"/>
+  <line x1="114.0" y1="110.0" x2="196.0" y2="110.0" stroke="#000000" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="155.0" y="104.0" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">load_regex</text>
+  <line x1="244.0" y1="110.0" x2="326.0" y2="110.0" stroke="#000000" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="285.0" y="104.0" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">tokenize</text>
+  <line x1="374.0" y1="110.0" x2="456.0" y2="110.0" stroke="#000000" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="415.0" y="104.0" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">build_ast</text>
+  <line x1="504.0" y1="110.0" x2="616.0" y2="110.0" stroke="#000000" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="560.0" y="104.0" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">optimize_ast</text>
+  <line x1="664.0" y1="110.0" x2="756.0" y2="110.0" stroke="#000000" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="710.0" y="104.0" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">emit_binary</text>
+  <line x1="804.0" y1="110.0" x2="896.0" y2="110.0" stroke="#000000" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="850.0" y="104.0" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">load_bram</text>
+  <line x1="920.0" y1="134.0" x2="920.0" y2="246.0" stroke="#000000" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="912.0" y="194.0" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="end">mismatch_detected</text>
+  <line x1="640.0" y1="134.0" x2="640.0" y2="226.0" stroke="#000000" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="648.0" y="184.0" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="start">stream_ready</text>
+  <line x1="663.9390087959376" y1="251.70992919970982" x2="896.0609912040624" y2="268.29007080029015" stroke="#000000" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="780.0" y="254.0" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">mismatch_detected</text>
+  <line x1="640.0" y1="274.0" x2="640.0" y2="366.0" stroke="#000000" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="648.0" y="324.0" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="start">fetch_3way</text>
+  <path d="M 664 390 L 870 390 L 912 294" fill="none" stroke="#000000" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="780" y="382" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">mismatch_detected</text>
+  <line x1="640.0" y1="414.0" x2="640.0" y2="506.0" stroke="#000000" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="648.0" y="464.0" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="start">dispatch_vcu</text>
+  <path d="M 920 246 L 920 45 L 640 45 L 640 86" fill="none" stroke="#000000" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="780" y="38" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">single_cycle_rollback</text>
+  <text x="940" y="160" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="start" transform="rotate(-90 940 160)">pop_stack_restore</text>
+  <path d="M 920 294 L 920 470 L 790 470 L 790 506" fill="none" stroke="#000000" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="855" y="462" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">test_alt_branch</text>
+  <line x1="284.0" y1="530.0" x2="356.0" y2="530.0" stroke="#000000" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="320.0" y="524.0" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">retry_token</text>
+  <line x1="404.0" y1="530.0" x2="476.0" y2="530.0" stroke="#000000" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="440.0" y="524.0" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">save_checkpoint</text>
+  <line x1="524.0" y1="530.0" x2="616.0" y2="530.0" stroke="#000000" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="570.0" y="524.0" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">speculate_greedy</text>
+  <line x1="664.0" y1="530.0" x2="766.0" y2="530.0" stroke="#000000" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="715.0" y="524.0" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">request_alt</text>
+  <line x1="260.0" y1="554.0" x2="260.0" y2="646.0" stroke="#000000" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <line x1="641.7099291997098" y1="553.9390087959376" x2="648.2900708002902" y2="646.0609912040624" stroke="#000000" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="653.0" y="604.0" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="start">accept_token</text>
+  <line x1="144.0" y1="670.0" x2="236.0" y2="670.0" stroke="#000000" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="190.0" y="664.0" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">slide_window</text>
+  <line x1="284.0" y1="670.0" x2="366.0" y2="670.0" stroke="#000000" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="325.0" y="664.0" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">realign_buffer</text>
+  <line x1="414.0" y1="670.0" x2="496.0" y2="670.0" stroke="#000000" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="455.0" y="664.0" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">next_byte</text>
+  <line x1="544.0" y1="670.0" x2="626.0" y2="670.0" stroke="#000000" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="585.0" y="664.0" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">check_bounds</text>
+  <line x1="674.0" y1="670.0" x2="766.0" y2="670.0" stroke="#000000" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="720.0" y="664.0" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">check_eop</text>
+  <line x1="814.0" y1="670.0" x2="906.0" y2="670.0" stroke="#000000" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="860.0" y="664.0" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">emit_offsets</text>
+  <circle cx="90" cy="110" r="24" fill="#4A90E2" stroke="#000000" stroke-width="2.2"/>
+  <text x="90" y="115" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Q0</text>
+  <line x1="35" y1="110" x2="66" y2="110" stroke="#000000" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="90" y="148" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">start_state</text>
+  <circle cx="220" cy="110" r="24" fill="#FFFFFF" stroke="#000000" stroke-width="2.2"/>
+  <text x="220" y="115" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#000000" text-anchor="middle">Q1</text>
+  <circle cx="350" cy="110" r="24" fill="#FFFFFF" stroke="#000000" stroke-width="2.2"/>
+  <text x="350" y="115" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#000000" text-anchor="middle">Q2</text>
+  <circle cx="480" cy="110" r="24" fill="#FFFFFF" stroke="#000000" stroke-width="2.2"/>
+  <text x="480" y="115" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#000000" text-anchor="middle">Q3</text>
+  <circle cx="640" cy="110" r="24" fill="#FFFFFF" stroke="#000000" stroke-width="2.2"/>
+  <text x="640" y="115" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#000000" text-anchor="middle">Q5</text>
+  <circle cx="780" cy="110" r="24" fill="#FFFFFF" stroke="#000000" stroke-width="2.2"/>
+  <text x="780" y="115" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#000000" text-anchor="middle">Q6</text>
+  <circle cx="920" cy="110" r="24" fill="#FFFFFF" stroke="#000000" stroke-width="2.2"/>
+  <text x="920" y="115" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#000000" text-anchor="middle">Q7</text>
+  <circle cx="640" cy="250" r="24" fill="#FFFFFF" stroke="#000000" stroke-width="2.2"/>
+  <text x="640" y="255" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#000000" text-anchor="middle">Q8</text>
+  <circle cx="920" cy="270" r="24" fill="#E06666" stroke="#000000" stroke-width="2.2"/>
+  <text x="920" y="275" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#000000" text-anchor="middle">Q10</text>
+  <circle cx="640" cy="390" r="24" fill="#FFFFFF" stroke="#000000" stroke-width="2.2"/>
+  <text x="640" y="395" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#000000" text-anchor="middle">Q9</text>
+  <circle cx="260" cy="530" r="24" fill="#FFFFFF" stroke="#000000" stroke-width="2.2"/>
+  <text x="260" y="535" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#000000" text-anchor="middle">Q16</text>
+  <circle cx="380" cy="530" r="24" fill="#FFFFFF" stroke="#000000" stroke-width="2.2"/>
+  <text x="380" y="535" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#000000" text-anchor="middle">Q13</text>
+  <circle cx="500" cy="530" r="24" fill="#FFFFFF" stroke="#000000" stroke-width="2.2"/>
+  <text x="500" y="535" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#000000" text-anchor="middle">Q11</text>
+  <circle cx="640" cy="530" r="24" fill="#FFFFFF" stroke="#000000" stroke-width="2.2"/>
+  <text x="640" y="535" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#000000" text-anchor="middle">Q12</text>
+  <circle cx="790" cy="530" r="24" fill="#FFFFFF" stroke="#000000" stroke-width="2.2"/>
+  <text x="790" y="535" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#000000" text-anchor="middle">Q13</text>
+  <circle cx="120" cy="670" r="24" fill="#FFFFFF" stroke="#000000" stroke-width="2.2"/>
+  <text x="120" y="675" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#000000" text-anchor="middle">Q14</text>
+  <circle cx="260" cy="670" r="24" fill="#FFFFFF" stroke="#000000" stroke-width="2.2"/>
+  <text x="260" y="675" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#000000" text-anchor="middle">Q15</text>
+  <circle cx="390" cy="670" r="24" fill="#FFFFFF" stroke="#000000" stroke-width="2.2"/>
+  <text x="390" y="675" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#000000" text-anchor="middle">Q16</text>
+  <circle cx="520" cy="670" r="24" fill="#FFFFFF" stroke="#000000" stroke-width="2.2"/>
+  <text x="520" y="675" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#000000" text-anchor="middle">Q17</text>
+  <circle cx="650" cy="670" r="24" fill="#FFFFFF" stroke="#000000" stroke-width="2.2"/>
+  <text x="650" y="675" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#000000" text-anchor="middle">Q18</text>
+  <circle cx="790" cy="670" r="24" fill="#FFFFFF" stroke="#000000" stroke-width="2.2"/>
+  <text x="790" y="675" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#000000" text-anchor="middle">Q19</text>
+  <circle cx="930" cy="670" r="29" fill="#6AA84F" stroke="#000000" stroke-width="2.2"/>
+  <circle cx="930" cy="670" r="22" fill="#6AA84F" stroke="#000000" stroke-width="1.6"/>
+  <text x="930" y="675" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#000000" text-anchor="middle">Q20</text>
+</svg>

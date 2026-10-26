@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ALVEARE Refined State Diagrams (Clean &amp; Uncluttered)</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 30px;
+      background: #F8FAFC;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      color: #0F172A;
+    }
+    .container {
+      max-width: 1440px;
+      margin: 0 auto;
+    }
+    header {
+      margin-bottom: 25px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px solid #E2E8F0;
+      padding-bottom: 16px;
+    }
+    h1 {
+      margin: 0 0 6px 0;
+      font-size: 24px;
+      color: #0F172A;
+    }
+    p.subtitle {
+      margin: 0;
+      font-size: 14px;
+      color: #64748B;
+    }
+    .card {
+      background: #FFFFFF;
+      border: 1px solid #CBD5E1;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      margin-bottom: 35px;
+      overflow: hidden;
+    }
+    .card-header {
+      padding: 16px 24px;
+      background: #FFFFFF;
+      border-bottom: 1px solid #E2E8F0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .card-title {
+      font-size: 18px;
+      font-weight: 700;
+      color: #0F172A;
+    }
+    .card-body {
+      padding: 24px;
+      display: flex;
+      justify-content: center;
+      background: #FFFFFF;
+      overflow-x: auto;
+    }
+    .btn {
+      background: #0F172A;
+      color: #FFFFFF;
+      padding: 8px 16px;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 600;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .btn:hover {
+      background: #2563EB;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div>
+        <h1>ALVEARE: Refined Clean State Diagrams</h1>
+        <p class="subtitle">Direct geometric matches to your sample images • Zero overlap • Clean arrow routing</p>
+      </div>
+      <div>
+        <button onclick="window.print()" class="btn">🖨 Print / Export to PDF</button>
+      </div>
+    </header>
+
+    <!-- STYLE 1: IMAGE 1 CLONE -->
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <span class="card-title">1. Classic Planar Automata Graph (Direct Image 1 Match)</span>
+          <p style="margin: 4px 0 0 0; font-size: 13px; color: #64748B;">Circular states (Q0–Q20), blue start state, red rollback state (Q10) with wide feedback loop, green double-circle accept state (Q20).</p>
+        </div>
+        <div>
+          <a href="alveare_simple_clean_diagram.svg" download class="btn">⬇ Download SVG</a>
+        </div>
+      </div>
+      <div class="card-body">
+        <object type="image/svg+xml" data="alveare_simple_clean_diagram.svg" style="width: 100%; max-width: 1380px; height: auto;"></object>
+      </div>
+    </div>
+
+    <!-- STYLE 2: IMAGE 2 CLONE -->
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <span class="card-title">2. Phased Swimlane DFA (Direct Image 2 Match)</span>
+          <p style="margin: 4px 0 0 0; font-size: 13px; color: #64748B;">4-row horizontal decomposition, state descriptions inside nodes, self-loops, and clean single-cycle stack rollback loop.</p>
+        </div>
+        <div>
+          <a href="alveare_phased_clean_diagram.svg" download class="btn">⬇ Download SVG</a>
+        </div>
+      </div>
+      <div class="card-body">
+        <object type="image/svg+xml" data="alveare_phased_clean_diagram.svg" style="width: 100%; max-width: 1380px; height: auto;"></object>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

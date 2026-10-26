@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 850" width="1400" height="850">
+<defs>
+  <marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="3.5" orient="auto">
+    <path d="M 0 0 L 7 3.5 L 0 7 Z" fill="#000000"/>
+  </marker>
+  <marker id="arrowRed" markerWidth="9" markerHeight="9" refX="7" refY="3.5" orient="auto">
+    <path d="M 0 0 L 7 3.5 L 0 7 Z" fill="#EA4335"/>
+  </marker>
+</defs>
+<rect width="1400" height="850" fill="#FFFFFF"/>
+  <text x="700" y="38" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#000000" text-anchor="middle">ALVEARE: Domain-Specific Execution State Machine (Corrected DFA)</text>
+  <g transform="translate(40, 60)">
+    <rect width="1320" height="165" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.2"/>
+    <text x="20" y="24" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#334155">Front-End Lexing, Parsing &amp; Compiler Optimization (C Software)</text>
+  </g>
+  <line x1="200" y1="155" x2="360" y2="155" stroke="#000000" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="280.0" y="147" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">load_regex</text>
+  <line x1="420" y1="155" x2="580" y2="155" stroke="#000000" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="500.0" y="147" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">tokenize</text>
+  <line x1="640" y1="155" x2="800" y2="155" stroke="#000000" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="720.0" y="147" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">build_ast</text>
+  <line x1="860" y1="155" x2="1020" y2="155" stroke="#000000" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="940.0" y="147" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">optimize_ast</text>
+  <line x1="1080" y1="155" x2="1240" y2="155" stroke="#000000" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="1160.0" y="147" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">emit_binary</text>
+  <path d="M 160 127 C 148 105, 192 105, 180 127" fill="none" stroke="#475569" stroke-width="1.3" marker-end="url(#arrow)"/>
+  <circle cx="170" cy="155" r="30" fill="#4A90E2" stroke="#000000" stroke-width="2.2"/>
+  <line x1="95" y1="155" x2="140" y2="155" stroke="#000000" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="118" y="147" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">start</text>
+  <text x="170" y="149" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Q0</text>
+  <text x="170" y="161" font-family="Arial, sans-serif" font-size="8" fill="#FFFFFF" text-anchor="middle">Idle / Load</text>
+  <text x="170" y="171" font-family="Arial, sans-serif" font-size="8" fill="#FFFFFF" text-anchor="middle">Regex</text>
+  <path d="M 380 127 C 368 105, 412 105, 400 127" fill="none" stroke="#475569" stroke-width="1.3" marker-end="url(#arrow)"/>
+  <circle cx="390" cy="155" r="30" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+  <text x="390" y="149" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#000000" text-anchor="middle">Q1</text>
+  <text x="390" y="161" font-family="Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle">FLEX Lexer</text>
+  <text x="390" y="171" font-family="Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle">Tokenization</text>
+  <path d="M 600 127 C 588 105, 632 105, 620 127" fill="none" stroke="#475569" stroke-width="1.3" marker-end="url(#arrow)"/>
+  <circle cx="610" cy="155" r="30" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+  <text x="610" y="149" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#000000" text-anchor="middle">Q2</text>
+  <text x="610" y="161" font-family="Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle">BISON AST</text>
+  <text x="610" y="171" font-family="Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle">Generation</text>
+  <path d="M 820 127 C 808 105, 852 105, 840 127" fill="none" stroke="#475569" stroke-width="1.3" marker-end="url(#arrow)"/>
+  <circle cx="830" cy="155" r="30" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+  <text x="830" y="149" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#000000" text-anchor="middle">Q3</text>
+  <text x="830" y="161" font-family="Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle">AST Optimize</text>
+  <text x="830" y="171" font-family="Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle">&amp; Pruning</text>
+  <path d="M 1040 127 C 1028 105, 1072 105, 1060 127" fill="none" stroke="#475569" stroke-width="1.3" marker-end="url(#arrow)"/>
+  <circle cx="1050" cy="155" r="30" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+  <text x="1050" y="149" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#000000" text-anchor="middle">Q4</text>
+  <text x="1050" y="161" font-family="Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle">Linear 43-bit</text>
+  <text x="1050" y="171" font-family="Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle">ISA Codegen</text>
+  <path d="M 1260 127 C 1248 105, 1292 105, 1280 127" fill="none" stroke="#475569" stroke-width="1.3" marker-end="url(#arrow)"/>
+  <circle cx="1270" cy="155" r="30" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+  <text x="1270" y="149" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#000000" text-anchor="middle">Q5</text>
+  <text x="1270" y="161" font-family="Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle">BRAM Binary</text>
+  <text x="1270" y="171" font-family="Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle">Loader</text>
+  <g transform="translate(40, 255)">
+    <rect width="1320" height="165" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.2"/>
+    <text x="20" y="24" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#334155">Instruction Fetch, 3-Way Decode &amp; Vector Compute (Hardware Core)</text>
+  </g>
+  <line x1="200" y1="350" x2="380" y2="350" stroke="#000000" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="290.0" y="342" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">stream_chunk</text>
+  <line x1="440" y1="350" x2="620" y2="350" stroke="#000000" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="530.0" y="342" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">fetch_3way</text>
+  <line x1="680" y1="350" x2="860" y2="350" stroke="#000000" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="770.0" y="342" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">dispatch_vcu</text>
+  <line x1="920" y1="350" x2="1100" y2="350" stroke="#000000" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="1010.0" y="342" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">check_operator</text>
+  <path d="M 160 322 C 148 300, 192 300, 180 322" fill="none" stroke="#475569" stroke-width="1.3" marker-end="url(#arrow)"/>
+  <circle cx="170" cy="350" r="30" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+  <text x="170" y="344" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#000000" text-anchor="middle">Q5</text>
+  <text x="170" y="356" font-family="Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle">BRAM Binary</text>
+  <text x="170" y="366" font-family="Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle">Loader</text>
+  <path d="M 400 322 C 388 300, 432 300, 420 322" fill="none" stroke="#475569" stroke-width="1.3" marker-end="url(#arrow)"/>
+  <circle cx="410" cy="350" r="30" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+  <text x="410" y="344" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#000000" text-anchor="middle">Q6</text>
+  <text x="410" y="356" font-family="Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle">16 KB Stream</text>
+  <text x="410" y="366" font-family="Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle">Ingestion</text>
+  <path d="M 640 322 C 628 300, 672 300, 660 322" fill="none" stroke="#475569" stroke-width="1.3" marker-end="url(#arrow)"/>
+  <circle cx="650" cy="350" r="30" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+  <text x="650" y="344" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#000000" text-anchor="middle">Q7</text>
+  <text x="650" y="356" font-family="Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle">3-Way Parallel</text>
+  <text x="650" y="366" font-family="Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle">Fetch/Decode</text>
+  <path d="M 880 322 C 868 300, 912 300, 900 322" fill="none" stroke="#475569" stroke-width="1.3" marker-end="url(#arrow)"/>
+  <circle cx="890" cy="350" r="30" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+  <text x="890" y="344" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#000000" text-anchor="middle">Q8</text>
+  <text x="890" y="356" font-family="Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle">Vector Compute</text>
+  <text x="890" y="366" font-family="Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle">Unit (VCU)</text>
+  <path d="M 1120 322 C 1108 300, 1152 300, 1140 322" fill="none" stroke="#475569" stroke-width="1.3" marker-end="url(#arrow)"/>
+  <circle cx="1130" cy="350" r="30" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+  <text x="1130" y="344" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#000000" text-anchor="middle">Q9</text>
+  <text x="1130" y="356" font-family="Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle">Branch Detector</text>
+  <text x="1130" y="366" font-family="Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle">(*, +, ?, |)</text>
+  <g transform="translate(40, 450)">
+    <rect width="1320" height="165" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.2"/>
+    <text x="20" y="24" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#334155">Speculative Execution, Stack Push &amp; Backtracking Loop</text>
+  </g>
+  <line x1="200" y1="545" x2="400" y2="545" stroke="#000000" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="300.0" y="537" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">save_state</text>
+  <line x1="460" y1="545" x2="660" y2="545" stroke="#000000" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="560.0" y="537" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">speculate_greedy</text>
+  <line x1="720" y1="545" x2="920" y2="545" stroke="#000000" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="820.0" y="537" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">char_mismatch</text>
+  <line x1="980" y1="545" x2="1180" y2="545" stroke="#000000" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="1080.0" y="537" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">stack_not_empty</text>
+  <path d="M 1210 515 C 1210 485, 690 485, 690 515" fill="none" stroke="#EA4335" stroke-width="1.8" marker-end="url(#arrowRed)"/>
+  <text x="950.0" y="480" font-family="Arial, sans-serif" font-size="10.5" font-weight="bold" fill="#EA4335" text-anchor="middle">single_cycle_rollback_to_alt_branch</text>
+  <path d="M 160 517 C 148 495, 192 495, 180 517" fill="none" stroke="#475569" stroke-width="1.3" marker-end="url(#arrow)"/>
+  <circle cx="170" cy="545" r="30" fill="#F6B26B" stroke="#000000" stroke-width="2.2"/>
+  <text x="170" y="539" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#000000" text-anchor="middle">Q10</text>
+  <text x="170" y="551" font-family="Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle">Speculation</text>
+  <text x="170" y="561" font-family="Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle">Checkpoint</text>
+  <path d="M 420 517 C 408 495, 452 495, 440 517" fill="none" stroke="#475569" stroke-width="1.3" marker-end="url(#arrow)"/>
+  <circle cx="430" cy="545" r="30" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+  <text x="430" y="539" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#000000" text-anchor="middle">Q11</text>
+  <text x="430" y="551" font-family="Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle">Push Stack</text>
+  <text x="430" y="561" font-family="Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle">(Alt PC, Ptr)</text>
+  <path d="M 680 517 C 668 495, 712 495, 700 517" fill="none" stroke="#475569" stroke-width="1.3" marker-end="url(#arrow)"/>
+  <circle cx="690" cy="545" r="30" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+  <text x="690" y="539" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#000000" text-anchor="middle">Q12</text>
+  <text x="690" y="551" font-family="Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle">Evaluate Greedy</text>
+  <text x="690" y="561" font-family="Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle">Primary Path</text>
+  <path d="M 940 517 C 928 495, 972 495, 960 517" fill="none" stroke="#475569" stroke-width="1.3" marker-end="url(#arrow)"/>
+  <circle cx="950" cy="545" r="30" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+  <text x="950" y="539" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#000000" text-anchor="middle">Q13</text>
+  <text x="950" y="551" font-family="Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle">Mismatch</text>
+  <text x="950" y="561" font-family="Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle">Detection</text>
+  <path d="M 1200 517 C 1188 495, 1232 495, 1220 517" fill="none" stroke="#475569" stroke-width="1.3" marker-end="url(#arrow)"/>
+  <circle cx="1210" cy="545" r="30" fill="#E06666" stroke="#000000" stroke-width="2.2"/>
+  <text x="1210" y="539" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#000000" text-anchor="middle">Q14</text>
+  <text x="1210" y="551" font-family="Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle">Single-Cycle</text>
+  <text x="1210" y="561" font-family="Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle">Stack Pop</text>
+  <g transform="translate(40, 645)">
+    <rect width="1320" height="165" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.2"/>
+    <text x="20" y="24" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#334155">Stream Window Progression &amp; Match Resolution</text>
+  </g>
+  <line x1="200" y1="740" x2="420" y2="740" stroke="#000000" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="310.0" y="732" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">char_ok</text>
+  <line x1="480" y1="740" x2="980" y2="740" stroke="#000000" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="730.0" y="732" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">check_eop</text>
+  <line x1="1040" y1="740" x2="1240" y2="740" stroke="#000000" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="1140.0" y="732" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">pattern_complete</text>
+  <path d="M 160 712 C 148 690, 192 690, 180 712" fill="none" stroke="#475569" stroke-width="1.3" marker-end="url(#arrow)"/>
+  <circle cx="170" cy="740" r="30" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+  <text x="170" y="734" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#000000" text-anchor="middle">Q12</text>
+  <text x="170" y="746" font-family="Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle">Char Match</text>
+  <text x="170" y="756" font-family="Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle">Satisfied</text>
+  <path d="M 440 712 C 428 690, 472 690, 460 712" fill="none" stroke="#475569" stroke-width="1.3" marker-end="url(#arrow)"/>
+  <circle cx="450" cy="740" r="30" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+  <text x="450" y="734" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#000000" text-anchor="middle">Q15</text>
+  <text x="450" y="746" font-family="Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle">Advance Stream</text>
+  <text x="450" y="756" font-family="Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle">(stream_ptr++)</text>
+  <path d="M 720 712 C 708 690, 752 690, 740 712" fill="none" stroke="#475569" stroke-width="1.3" marker-end="url(#arrow)"/>
+  <circle cx="730" cy="740" r="30" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+  <text x="730" y="734" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#000000" text-anchor="middle">Q16</text>
+  <text x="730" y="746" font-family="Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle">Window Slide</text>
+  <text x="730" y="756" font-family="Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle">(SP==0, PC=0)</text>
+  <path d="M 1000 712 C 988 690, 1032 690, 1020 712" fill="none" stroke="#475569" stroke-width="1.3" marker-end="url(#arrow)"/>
+  <circle cx="1010" cy="740" r="30" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+  <text x="1010" y="734" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#000000" text-anchor="middle">Q17</text>
+  <text x="1010" y="746" font-family="Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle">End-of-Pattern</text>
+  <text x="1010" y="756" font-family="Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle">Verification</text>
+  <path d="M 1260 712 C 1248 690, 1292 690, 1280 712" fill="none" stroke="#475569" stroke-width="1.3" marker-end="url(#arrow)"/>
+  <circle cx="1270" cy="740" r="35" fill="#6AA84F" stroke="#000000" stroke-width="2.2"/>
+  <circle cx="1270" cy="740" r="28" fill="#6AA84F" stroke="#000000" stroke-width="1.6"/>
+  <text x="1270" y="734" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#000000" text-anchor="middle">Q18</text>
+  <text x="1270" y="746" font-family="Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle">Match Found</text>
+  <text x="1270" y="756" font-family="Arial, sans-serif" font-size="8" fill="#000000" text-anchor="middle">(Emit Offsets)</text>
+</svg>
